@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f6fb;
+}
+
+header {
+    background: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    padding: 15px;
+}
+
+.card {
+    background: white;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.badge {
+    float: right;
+    padding: 4px 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+}
+
+.lost { background: #ff6b6b; }
+.found { background: #2ecc71; }
+
+nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    padding: 10px;
+}

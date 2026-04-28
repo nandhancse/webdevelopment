@@ -1,0 +1,30 @@
+.actions {
+    display: flex;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.btn {
+    flex: 1;
+    padding: 12px;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.purple {
+    background: linear-gradient(135deg, #6c63ff, #8e7cff);
+}
+
+.green {
+    background: linear-gradient(135deg, #2ecc71, #27ae60);
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    margin-bottom: 10px;
+}
